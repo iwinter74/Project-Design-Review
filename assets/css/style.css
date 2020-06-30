@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'grafik-medium';
+    src: url(../font/Graphik-Medium.ttf);
+}
+@font-face {
+font-family: 'grafik-regular';
+src: url(../font/Graphik-Regular.woff);
+}
+@font-face {
+font-family: 'Theinhardt';
+src: url(../font/Theinhardt-Lt.woff);
+}
+@font-face {
+font-family: 'TiemposHeadline';
+src: url(../font/TiemposHeadline-Semibold.woff);
+}
+header nav a, #hero h1 {
+    font-family: 'grafik-regular';
+}
+header>a {
+    font-family: 'grafik-medium';
+    text-decoration: none;
+    color: #27282A;
+    border: 1px solid #27282A;
+    padding-top: 0.3em;
+    padding-right: 1em;
+    padding-left: 1em
+}
+header>a:hover {
+    color: white;
+    background: black
+}
+header h2 {
+    font-family: 'TiemposHeadline';
+    font-size: 1.2em;
+}
+header ul {
+    display: flex;
+    list-style: none;
+}
+header li {
+    padding-left: 0.5em
+}
+header nav a {
+    text-decoration: none;
+    color: #27282A 
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1em;
+    padding-right: 3em;
+    padding-left: 2.5em;
+    padding-bottom: 3em;
+}
+#hero {
+    background: url(../img/home_hero.png) center/cover no-repeat;
+    text-align: center;
+}
+#hero h1 {
+    padding-bottom: 80vh
+}
+#offer {
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 10%;
+    display: flex;
+    align-items: center;
+}
+#offer div:first-of-type p {
+    width: 70%;
+    font-family: 'grafik-medium';
+    line-height: 150%;
+}
+#offer div:nth-of-type(2) {
+    margin-right: 20%
+}
+#offer div:nth-of-type(2) p:last-of-type {
+    font-family: 'Theinhardt';
+    color: #9FA2A7 
+}
+#offer div:nth-of-type(2) p:first-of-type {
+    font-size: 3em;
+    padding-bottom: 0.2em;
+}
+#deliverables {
+    display: flex;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%
+}
+#deliverables img {
+    width: 40%;
+}
+#deliverables div {
+    padding-left: 0.5em
+}
+#deliverables h1 {
+    font-family: 'TiemposHeadline';
+    font-size: 2.5em;
+    padding-bottom: 1em
+}
+#deliverables h2 {
+    font-family: 'grafik-medium';
+    padding-bottom: 1em;
+    padding-top: 1em;
+    font-size: 1em
+}
+#deliverables p {
+    font-family: 'Theinhardt';
+}
+#how {
+    background: rgba(159,162,167,0.3);
+    display: flex;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 5%;
+}
+#how img {
+    width: 40%
+}
+#how div {
+    width: 40%;
+    padding-right: 10em
+}
+#how h1 {
+    font-family: 'TiemposHeadline';
+    padding-top: 1em;
+    padding-bottom: 0.8em;
+    padding-left: 2em;
+    font-size: 2.5em
+}
+#how p, #how li {
+    font-family: 'Theinhardt';
+}
+#how p {
+    padding-left: 4em
+}
+#how ol {
+    padding-left: 6em
+}
+#critique {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7%;
+}
+#critique h1 {
+    font-family: 'TiemposHeadline';
+    padding-bottom: 0.8em;
+    font-size: 2.5em;
+}
+#critique p {
+    line-height: 2em;
+    font-family: 'Theinhardt';
+    color: #9FA2A7;
+    width: 40%;
+    padding-bottom: 10%
+}
+#conversion {
+    margin-top: 10%;
+    margin-right: 5%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    position: relative;
+}
+#conversion img {
+    width: 60%;
+}
+#conversion div {
+    font-family: 'grafik-medium';
+}
+#conversion h2 {
+    font-size: 20em;
+    color: #9FA2A7;
+    opacity: 0.3;
+    font-family: 'Theinhardt';
+    position: absolute;
+    bottom: 15%;
+    margin-top: 20%
+}
+#conversion div {
+    display: flex;
+    color: #9FA2A7 
+}
+#conversion div, #conversion h2 {
+    padding-left: 20%
+}
+#conversion div p {
+    padding-top: 5em
+}
+#last {
+    border-top: 1px solid #9FA2A7;
+    margin: 5%;
+    text-align: center;
+}
+#last h1 {
+    font-family: 'TiemposHeadline';
+    padding-bottom: 0.8em;
+    font-size: 2.5em;
+    margin-top: 5%
+}
+#last div {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+#last img {
+    width: 7%
+}
+#last p {
+    font-family: 'grafik-medium';
+    color: #9FA2A7
+}
+#last a {
+    text-decoration: none;
+    font-family: 'grafik-medium';
+    color: #27282A 
+}
+
+/* Farben: #2B2C2E /  #9FA2A7 / #27282A /  #848689 / #3D3E41 / #fff */
