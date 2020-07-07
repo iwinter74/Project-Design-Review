@@ -161,39 +161,39 @@ header {
     font-family: 'Theinhardt';
     color: #9FA2A7;
     width: 40%;
-    padding-bottom: 10%
 }
 #conversion {
-    margin-top: 10%;
     margin-right: 5%;
-    margin-left: 10%;
-    margin-bottom: 5%;
-    position: relative;
+    margin-left: 8%;
 }
 #conversion img {
-    width: 60%;
+    width: 70%;
+    display: inline-block;
+    transform: translateY(-65%);
+    margin-right: 8%
+}
+#conversion p {
+    transform: translateY(-37%)
 }
 #conversion div {
     font-family: 'grafik-medium';
+    display: flex;
+    color: #9FA2A7;
+
 }
 #conversion h2 {
     font-size: 20em;
     color: #9FA2A7;
     opacity: 0.3;
     font-family: 'Theinhardt';
-    position: absolute;
-    bottom: 15%;
-    margin-top: 20%
+    padding-top: 5%;
 }
-#conversion div {
-    display: flex;
-    color: #9FA2A7 
-}
+
 #conversion div, #conversion h2 {
-    padding-left: 20%
+    padding-left: 5%
 }
 #conversion div p {
-    padding-top: 5em
+    line-height: 200%;
 }
 #last {
     border-top: 1px solid #9FA2A7;
